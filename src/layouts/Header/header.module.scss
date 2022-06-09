@@ -1,0 +1,24 @@
+$main: '.header';
+
+#{$main} {
+  background-color: #d8d8d8;
+  padding: 10px 20px;
+
+  &__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__logo {
+    width: 40px;
+  }
+
+  &__title {
+    color: rgb(49, 49, 49);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

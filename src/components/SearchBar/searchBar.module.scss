@@ -1,0 +1,35 @@
+$main: '.searchBar';
+
+#{$main} {
+  padding: 40px 0;
+  display: flex;
+  justify-content: flex-end;
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__input {
+    width: 120px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+
+  &__button {
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    width: 40asdpx;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  &__icon {
+    margin-top: 2px;
+    height: 15px;
+  }
+}

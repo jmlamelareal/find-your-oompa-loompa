@@ -1,0 +1,31 @@
+$main: '.item';
+
+#{$main} {
+  min-width: 100%;
+  cursor: pointer;
+
+  &__image {
+    width: 100%;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #000;
+  }
+
+  &__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 0.6em;
+
+    [class*='list'] #{$main}:hover & {
+      color: rgb(35 184 180);
+    }
+  }
+
+  &__gender,
+  &__profession {
+    font-size: 1rem;
+    line-height: 0.6em;
+  }
+}

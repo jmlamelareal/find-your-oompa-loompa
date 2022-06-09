@@ -1,0 +1,17 @@
+$main: '.list';
+
+#{$main} {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  list-style: none;
+  gap: 40px;
+  margin-top: 60px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  #{$main} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
